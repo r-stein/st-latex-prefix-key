@@ -1,0 +1,696 @@
+[
+    {
+        "keys": [";"], "command": "latex_prefix_key_prefix",
+        "args": { "insert_prefix": ";", "mode": "math"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.default_prefix_key_enabled" },
+            { "key": "latex_prefix_key.math_selector" }
+        ]
+    },
+    {
+        "keys": [";"], "command": "latex_prefix_key_cancel",
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.default_prefix_key_enabled" },
+            { "key": "latex_prefix_key" }
+        ]
+    },
+    {
+        "keys": ["escape"], "command": "latex_prefix_key_cancel",
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key" }
+        ]
+    },
+
+/*
+                                        #                          #                                              #                                
+                                        #                          #                                              #                                
+                                        #                          #                                              #                                
+     ######   # ###    #####    #####   #   ##             #####   ######    ######   # ###    ######   #####   ######    #####    # ###    #####  
+    #     #   ##      #     #  #     #  #  #              #        #     #  #     #   ##      #     #  #          #      #     #   ##      #       
+    #     #   #       #######  #######  ###               #        #     #  #     #   #       #     #  #          #      #######   #        ####   
+    #     #   #       #        #        #  #              #        #     #  #    ##   #       #    ##  #          #      #         #            #  
+     ######   #        #####    #####   #   ##             #####   #     #   #### #   #        #### #   #####      ###    #####    #       #####   
+          #                                                                                                                                        
+     #####                                                                                                                                         
+*/
+
+    {
+        "keys": ["a"], "command": "latex_prefix_key_insert", "args": { "characters": "\\alpha" },
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["b"], "command": "latex_prefix_key_insert", "args": {"characters": "\\beta"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["g"], "command": "latex_prefix_key_insert", "args": {"characters": "\\gamma"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["d"], "command": "latex_prefix_key_insert", "args": {"characters": "\\delta"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["e"], "command": "latex_prefix_key_insert", "args": {"characters": "\\epsilon"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["z"], "command": "latex_prefix_key_insert", "args": {"characters": "\\zeta"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["h"], "command": "latex_prefix_key_insert", "args": {"characters": "\\eta"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["j"], "command": "latex_prefix_key_insert", "args": {"characters": "\\theta"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["k"], "command": "latex_prefix_key_insert", "args": {"characters": "\\kappa"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["l"], "command": "latex_prefix_key_insert", "args": {"characters": "\\lambda"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["m"], "command": "latex_prefix_key_insert", "args": {"characters": "\\mu"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["n"], "command": "latex_prefix_key_insert", "args": {"characters": "\\nu"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["x"], "command": "latex_prefix_key_insert", "args": {"characters": "\\xi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["p"], "command": "latex_prefix_key_insert", "args": {"characters": "\\pi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["r"], "command": "latex_prefix_key_insert", "args": {"characters": "\\rho"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["s"], "command": "latex_prefix_key_insert", "args": {"characters": "\\sigma"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["t"], "command": "latex_prefix_key_insert", "args": {"characters": "\\tau"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["u"], "command": "latex_prefix_key_insert", "args": {"characters": "\\upsilon"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["f"], "command": "latex_prefix_key_insert", "args": {"characters": "\\phi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["v"], "command": "latex_prefix_key_insert", "args": {"characters": "\\varphi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["q"], "command": "latex_prefix_key_insert", "args": {"characters": "\\chi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["y"], "command": "latex_prefix_key_insert", "args": {"characters": "\\psi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["w"], "command": "latex_prefix_key_insert", "args": {"characters": "\\omega"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+
+    {
+        "keys": ["D"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Delta"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["G"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Gamma"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["Q"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Theta"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["L"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Lambda"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["X"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Xi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["P"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Pi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["S"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Sigma"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["U"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Upsilon"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["F"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Phi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["Y"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Psi"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["W"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Omega"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+
+/*
+                                            #                ##                       #                                              #                                
+                                            #                 #                       #                                              #                                
+                                                              #                       #                                              #                                
+      #####   ######    #####    #####    ###      ######     #               #####   ######    ######   # ###    ######   #####   ######    #####    # ###    #####  
+     #        #     #  #     #  #           #     #     #     #              #        #     #  #     #   ##      #     #  #          #      #     #   ##      #       
+      ####    #     #  #######  #           #     #     #     #              #        #     #  #     #   #       #     #  #          #      #######   #        ####   
+          #   #     #  #        #           #     #    ##     #              #        #     #  #    ##   #       #    ##  #          #      #         #            #  
+     #####    ######    #####    #####    #####    #### #    ###              #####   #     #   #### #   #        #### #   #####      ###    #####    #       #####   
+              #                                                                                                                                                       
+              #                                                                                                                                                       
+*/
+
+    {
+        "keys": ["ctrl+f"], "command": "latex_prefix_key_insert", "args": {"characters": "\\rightarrow"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+b"], "command": "latex_prefix_key_insert", "args": {"characters": "\\leftarrow"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+p"], "command": "latex_prefix_key_insert", "args": {"characters": "\\uparrow"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+p"], "command": "latex_prefix_key_insert", "args": {"characters": "\\downarrow"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+shift+f"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Rightarrow"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+shift+b"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Leftarrow"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+shift+p"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Uparrow"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+shift+p"], "command": "latex_prefix_key_insert", "args": {"characters": "\\Downarrow"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["<"], "command": "latex_prefix_key_insert", "args": {"characters": "\\leq"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": [">"], "command": "latex_prefix_key_insert", "args": {"characters": "\\geq"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["~"], "command": "latex_prefix_key_insert", "args": {"characters": "\\tilde"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["N"], "command": "latex_prefix_key_insert", "args": {"characters": "\\nabla"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["I"], "command": "latex_prefix_key_insert", "args": {"characters": "\\infty"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["A"], "command": "latex_prefix_key_insert", "args": {"characters": "\\forall"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["E"], "command": "latex_prefix_key_insert", "args": {"characters": "\\exists"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["/"], "command": "latex_prefix_key_insert", "args": {"characters": "\\not"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["i"], "command": "latex_prefix_key_insert", "args": {"characters": "\\in"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["*"], "command": "latex_prefix_key_insert", "args": {"characters": "\\times"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["."], "command": "latex_prefix_key_insert", "args": {"characters": "\\cdot"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["{"], "command": "latex_prefix_key_insert", "args": {"characters": "\\subset"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["}"], "command": "latex_prefix_key_insert", "args": {"characters": "\\supset"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["["], "command": "latex_prefix_key_insert", "args": {"characters": "\\subseteq"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["]"], "command": "latex_prefix_key_insert", "args": {"characters": "\\supseteq"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["0"], "command": "latex_prefix_key_insert", "args": {"characters": "\\emptyset"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["\\"], "command": "latex_prefix_key_insert", "args": {"characters": "\\setminus"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["+"], "command": "latex_prefix_key_insert", "args": {"characters": "\\cup"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["-"], "command": "latex_prefix_key_insert", "args": {"characters": "\\cap"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["("], "command": "latex_prefix_key_insert", "args": {"characters": "\\langle"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": [")"], "command": "latex_prefix_key_insert", "args": {"characters": "\\rangle"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+e"], "command": "latex_prefix_key_insert", "args": {"characters": "\\exp"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+s"], "command": "latex_prefix_key_insert", "args": {"characters": "\\sin"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+c"], "command": "latex_prefix_key_insert", "args": {"characters": "\\cos"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+^"], "command": "latex_prefix_key_insert", "args": {"characters": "\\sup"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+_"], "command": "latex_prefix_key_insert", "args": {"characters": "\\inf"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+d"], "command": "latex_prefix_key_insert", "args": {"characters": "\\det"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+l"], "command": "latex_prefix_key_insert", "args": {"characters": "\\lim"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["ctrl+t"], "command": "latex_prefix_key_insert", "args": {"characters": "\\tan"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["^"], "command": "latex_prefix_key_insert", "args": {"characters": "\\hat"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["|"], "command": "latex_prefix_key_insert", "args": {"characters": "\\vee"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["&"], "command": "latex_prefix_key_insert", "args": {"characters": "\\wedge"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+
+/*
+                          #                                  #              
+                          #                                  #              
+                                                             #              
+      #####   # ####    ###     ######   ######    #####   ######    #####  
+     #        ##    #     #     #     #  #     #  #     #    #      #       
+      ####    #     #     #     #     #  #     #  #######    #       ####   
+          #   #     #     #     #     #  #     #  #          #           #  
+     #####    #     #   #####   ######   ######    #####      ###   #####   
+                                #        #                                  
+                                #        #                                  
+*/
+
+    {
+        "keys": ["c", "c"], "command": "latex_prefix_key_insert_snippet", "args": {"contents": "\\mathcal{$1}$0"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["c", "b"], "command": "latex_prefix_key_insert_snippet", "args": {"contents": "\\mathbb{$1}$0"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["c", "f"], "command": "latex_prefix_key_insert_snippet", "args": {"contents": "\\mathfrak{$1}$0"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    },
+    {
+        "keys": ["c", "s"], "command": "latex_prefix_key_insert_snippet", "args": {"contents": "\\mathscr{$1}$0"},
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key.mode.math" }
+        ]
+    }
+]
