@@ -51,7 +51,7 @@ class LatexPrefixKeyHelpCommand(sublime_plugin.TextCommand):
         plat = plat.upper() if plat == "osx" else plat.title()
 
         default_keymap = _load_resource(
-            "Packages/LaTeXMathKeys/Default.sublime-keymap")
+            "Packages/LaTeXPrefixKey/Default.sublime-keymap")
 
         user_keymap = []
         for user_path in [
@@ -80,7 +80,7 @@ class LatexPrefixKeyHelpCommand(sublime_plugin.TextCommand):
                 used_kbd.append(entry["kbd"])
 
         symbol_map = _load_resource(
-            "Packages/LaTeXMathKeys/tex_command_symbol_mapping.json")
+            "Packages/LaTeXPrefixKey/tex_command_symbol_mapping.json")
 
         def process_entry(entry):
             characters = entry["characters"]
