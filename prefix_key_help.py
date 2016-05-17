@@ -50,8 +50,16 @@ class LatexPrefixKeyHelpCommand(sublime_plugin.TextCommand):
         plat = sublime.platform()
         plat = plat.upper() if plat == "osx" else plat.title()
 
-        default_keymap = _load_resource(
-            "Packages/LaTeXPrefixKey/Default.sublime-keymap")
+        try:
+            default_keymap = _load_resource(
+                "Packages/LaTeXPrefixKey/Default.sublime-keymap")
+        except:
+            sublime.error_message(
+                "Failed to load LaTeXPrefixKey default keymap. "
+                "If you installed LaTeXPrefixKey from git, check that "
+                "the package folder is called LaTeXPrefixKey.")
+            default_keymap = []
+            return
 
         user_keymap = []
         for user_path in [
@@ -79,8 +87,12 @@ class LatexPrefixKeyHelpCommand(sublime_plugin.TextCommand):
             else:
                 used_kbd.append(entry["kbd"])
 
-        symbol_map = _load_resource(
-            "Packages/LaTeXPrefixKey/tex_command_symbol_mapping.json")
+        try:
+            symbol_map = _load_resource(
+                "Packages/LaTeXPrefixKey/tex_command_symbol_mapping.json")
+        except:
+            print("Failed to load symbols map.")
+            symbol_map = {}
 
         def process_entry(entry):
             characters = entry["characters"]
