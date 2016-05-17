@@ -6,8 +6,13 @@ Although it is made for LaTeX and focuses on inserting math commands, you can ad
 
 ## Usage
 
-Press the prefix key, and a key of the prefix keymap to insert the corresponding command, characters or snippet into the view.
-You can follow the prefix key with `?` to get an overview over all available commands in the prefix keymap.
+Press the prefix key, and a key of the prefix keymap to insert the corresponding command, characters or snippet into the view:
+
+![prefix_key_demo](https://cloud.githubusercontent.com/assets/12573621/15333937/2523766c-1c6c-11e6-87a9-a084e2bb83c9.gif)
+
+You can press the prefix key followed by `?` to get an overview over all available commands in the prefix keymap:
+
+![prefix_key_help_demo](https://cloud.githubusercontent.com/assets/12573621/15333924/0ffbed46-1c6c-11e6-9560-d4b1cdca2114.gif)
 
 
 ### Adding commands to the prefix keymap
