@@ -27,6 +27,15 @@
         ]
     },
 
+    {
+        "keys": ["?"], "command": "latex_prefix_key_help",
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.tex" },
+            { "key": "latex_prefix_key" }
+        ]
+    },
+
 /*
                                         #                          #                                              #                                
                                         #                          #                                              #                                
