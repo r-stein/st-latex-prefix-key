@@ -1,0 +1,8 @@
+{
+    // set this to true, if you want to use your own prefix key
+    "disable_default_prefix_key": false,
+    // maximal duration (in seconds) between pressing the prefix key and the insertion key
+    "key_combination_time": 4,
+    // the scopes, in which LaTeXPrefixKey math mode is enabled
+    "math_scope_selector": "string.other.math.tex, string.other.math.latex, string.other.math.block.tex, string.other.math.block.environment.latex, meta.environment.math.latex"
+}
