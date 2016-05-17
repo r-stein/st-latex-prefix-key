@@ -102,4 +102,4 @@ Add your keybindings with the context key `latex_prefix_key.mode.your_mode`:
 
 If you are used to Auctex, then you feel familiar with the default keybindings. You can see the available keybindings and commands for any prefix keymap by pressing the prefix key (`;`) and `?`.
 
-<!-- In addition a cheat sheet with the default keys is hosted [here](). -->
+In addition a cheat sheet with the default keys is hosted here: [latex_prefix_key_sheet_v0_9.pdf](https://github.com/r-stein/st-latex-prefix-key/files/268931/latex_prefix_key_sheet_v0_9.pdf).
