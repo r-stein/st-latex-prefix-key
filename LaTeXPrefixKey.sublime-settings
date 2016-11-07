@@ -4,5 +4,5 @@
     // maximal duration (in seconds) between pressing the prefix key and the insertion key
     "key_combination_time": 4,
     // the scopes, in which LaTeXPrefixKey math mode is enabled
-    "math_scope_selector": "string.other.math.tex, string.other.math.latex, string.other.math.block.tex, string.other.math.block.environment.latex, meta.environment.math.latex"
+    "math_scope_selector": "text.tex.latex string.other.math, text.tex.latex meta.environment.math"
 }
